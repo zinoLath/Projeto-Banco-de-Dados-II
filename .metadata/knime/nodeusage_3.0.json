@@ -6,9 +6,9 @@
             {
                 "id": "org.knime.js.base.node.configuration.input.string.StringDialogNodeFactory",
                 "nodename": "String Configuration",
-                "nrexecs": 108,
+                "nrexecs": 324,
                 "nrfails": 0,
-                "exectime": 142,
+                "exectime": 361,
                 "nrcreated": 1,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -17,9 +17,9 @@
             {
                 "id": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeFactory",
                 "nodename": "Single Selection Configuration",
-                "nrexecs": 46,
+                "nrexecs": 100,
                 "nrfails": 0,
-                "exectime": 4,
+                "exectime": 9,
                 "nrcreated": 2,
                 "nrsettingsChanged": 4,
                 "successor": "org.knime.base.expressions.node.variable.ExpressionFlowVariableNodeFactory",
@@ -39,9 +39,9 @@
             {
                 "id": "org.knime.base.expressions.node.variable.ExpressionFlowVariableNodeFactory",
                 "nodename": "Variable Expression",
-                "nrexecs": 72,
+                "nrexecs": 180,
                 "nrfails": 0,
-                "exectime": 43,
+                "exectime": 86,
                 "nrcreated": 1,
                 "nrsettingsChanged": 3,
                 "successor": "org.knime.rest.nodes.get.RestGetNodeFactory",
@@ -50,9 +50,9 @@
             {
                 "id": "org.knime.base.node.util.mergevariables.MergeVariables2NodeFactory",
                 "nodename": "Merge Variables",
-                "nrexecs": 30,
+                "nrexecs": 84,
                 "nrfails": 0,
-                "exectime": 12,
+                "exectime": 27,
                 "nrcreated": 1,
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.base.expressions.node.variable.ExpressionFlowVariableNodeFactory",
@@ -72,9 +72,9 @@
             {
                 "id": "org.knime.rest.nodes.get.RestGetNodeFactory",
                 "nodename": "GET Request",
-                "nrexecs": 140,
+                "nrexecs": 358,
                 "nrfails": 0,
-                "exectime": 31857,
+                "exectime": 82213,
                 "nrcreated": 1,
                 "nrsettingsChanged": 3,
                 "successor": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
@@ -83,9 +83,9 @@
             {
                 "id": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
                 "nodename": "JSON Path",
-                "nrexecs": 174,
+                "nrexecs": 392,
                 "nrfails": 0,
-                "exectime": 9661,
+                "exectime": 9964,
                 "nrcreated": 1,
                 "nrsettingsChanged": 2,
                 "successor": "org.knime.base.node.preproc.ungroup.UngroupNodeFactory",
@@ -94,9 +94,9 @@
             {
                 "id": "org.knime.base.node.preproc.ungroup.UngroupNodeFactory",
                 "nodename": "Ungroup",
-                "nrexecs": 161,
+                "nrexecs": 379,
                 "nrfails": 0,
-                "exectime": 702,
+                "exectime": 775,
                 "nrcreated": 1,
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
@@ -105,9 +105,9 @@
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
                 "nodename": "Column Filter",
-                "nrexecs": 198,
+                "nrexecs": 415,
                 "nrfails": 0,
-                "exectime": 37,
+                "exectime": 59,
                 "nrcreated": 1,
                 "nrsettingsChanged": 1,
                 "successor": "org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#Component Output",
@@ -193,9 +193,9 @@
             {
                 "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
                 "nodename": "Joiner",
-                "nrexecs": 44,
+                "nrexecs": 48,
                 "nrfails": 0,
-                "exectime": 357,
+                "exectime": 365,
                 "nrcreated": 2,
                 "nrsettingsChanged": 2,
                 "successor": "NodeContainer",
@@ -204,11 +204,11 @@
             {
                 "id": "org.knime.base.node.preproc.rank.RankNodeFactory",
                 "nodename": "Rank",
-                "nrexecs": 32,
+                "nrexecs": 35,
                 "nrfails": 0,
-                "exectime": 802,
+                "exectime": 810,
                 "nrcreated": 1,
-                "nrsettingsChanged": 1,
+                "nrsettingsChanged": 3,
                 "successor": "NodeContainer",
                 "successornodename": "Indexacao do BDIA"
             },
@@ -226,9 +226,9 @@
             {
                 "id": "org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory#Component Input",
                 "nodename": "Component Input",
-                "nrexecs": 149,
+                "nrexecs": 419,
                 "nrfails": 0,
-                "exectime": 491,
+                "exectime": 1211,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory",
@@ -248,9 +248,9 @@
             {
                 "id": "org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeOutputNodeFactory#Component Output",
                 "nodename": "Component Output",
-                "nrexecs": 149,
+                "nrexecs": 415,
                 "nrfails": 0,
-                "exectime": 34,
+                "exectime": 75,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -259,9 +259,9 @@
             {
                 "id": "org.knime.base.node.meta.looper.variable.start.LoopStartVariable3NodeFactory",
                 "nodename": "Table Row to Variable Loop Start",
-                "nrexecs": 35,
+                "nrexecs": 90,
                 "nrfails": 0,
-                "exectime": 17,
+                "exectime": 30,
                 "nrcreated": 1,
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.core.node.workflow.SubNodeContainer",
@@ -270,9 +270,9 @@
             {
                 "id": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeFactory",
                 "nodename": "Integer Configuration",
-                "nrexecs": 135,
+                "nrexecs": 405,
                 "nrfails": 0,
-                "exectime": 184,
+                "exectime": 500,
                 "nrcreated": 0,
                 "nrsettingsChanged": 0,
                 "successor": "n/a",
@@ -281,35 +281,46 @@
             {
                 "id": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory",
                 "nodename": "Constant Value Column",
-                "nrexecs": 108,
+                "nrexecs": 325,
                 "nrfails": 0,
-                "exectime": 36,
+                "exectime": 104,
                 "nrcreated": 1,
-                "nrsettingsChanged": 0,
-                "successor": "n/a",
-                "successornodename": "n/a"
+                "nrsettingsChanged": 4,
+                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "successornodename": "Concatenate"
             },
             {
                 "id": "org.knime.base.node.meta.looper.LoopEndDynamicNodeFactory",
                 "nodename": "Loop End",
-                "nrexecs": 35,
+                "nrexecs": 88,
                 "nrfails": 0,
-                "exectime": 294,
+                "exectime": 306,
                 "nrcreated": 1,
                 "nrsettingsChanged": 0,
                 "successor": "NodeContainer",
-                "successornodename": "Carregar TerraBrasilis"
+                "successornodename": "Join para Indexar os dados"
             },
             {
                 "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
                 "nodename": "Concatenate",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 0,
                 "exectime": 1,
                 "nrcreated": 1,
                 "nrsettingsChanged": 0,
                 "successor": "org.knime.base.node.preproc.rank.RankNodeFactory",
                 "successornodename": "Rank"
+            },
+            {
+                "id": "org.knime.database.node.connector.generic.DBConnectorNodeFactory",
+                "nodename": "DB Connector",
+                "nrexecs": 1,
+                "nrfails": 2,
+                "exectime": 107,
+                "nrcreated": 1,
+                "nrsettingsChanged": 2,
+                "successor": "n/a",
+                "successornodename": "n/a"
             }
         ],
         "metaNodes": {
@@ -322,18 +333,18 @@
         },
         "wrappedNodes": {
             "nodename": "Dano TerraBrasilis",
-            "nrexecs": 149,
-            "nrfails": 1,
-            "exectime": 49247,
+            "nrexecs": 415,
+            "nrfails": 2,
+            "exectime": 113240,
             "nrcreated": 0,
-            "nrsettingsChanged": 4
+            "nrsettingsChanged": 6
         },
         "createdVia": {
-            "WEB_UI": 20,
+            "WEB_UI": 21,
             "WEB_UI_QUICK_INSERTION_RECOMMENDED": 5
         }
     },
-    "uptime": 8280701,
+    "uptime": 9180701,
     "workflowsOpened": 1,
     "remoteWorkflowsOpened": 0,
     "workflowsCreated": 0,
@@ -346,7 +357,7 @@
     "lastUsedPerspective": "none",
     "launches": 1,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 8280701,
+    "timeSinceLastStart": 9180701,
     "crashes": 0,
     "properlyShutDown": false
 }

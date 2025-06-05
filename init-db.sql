@@ -1,6 +1,6 @@
 CREATE TABLE bioma (
     id SMALLSERIAL PRIMARY KEY,
-    nome_bioma TEXT NOT NULL UNIQUE,
+    nome_bioma TEXT NOT NULL UNIQUE
 );
 -- Tabela de Estados
 CREATE TABLE estado (
@@ -32,7 +32,7 @@ CREATE TABLE bioma_municipio (
 -- Tabela de Vegetação
 CREATE TABLE caracteristica (
     id SMALLINT PRIMARY KEY,
-    nome_caracteristica VARCHAR(100) NOT NULL UNIQUE
+    nome_caracteristica VARCHAR(100) NOT NULL UNIQUE,
     categoria VARCHAR(13) NOT NULL
 );
 
