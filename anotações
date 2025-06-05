@@ -1,0 +1,20 @@
+país = 1
+estados = 2
+municipios = 3
+biomas = 4
+
+biomas:
+1- amazonia
+2- caatinga
+3- cerrado
+4- mata atlantica
+5- pampa
+6- pantanal
+
+temas:
+geologia
+vegetacao
+geomorfologia
+pedologia
+
+https://bdiaweb.ibge.gov.br/proxy/api/graficos/vegetacao/tipo_recorte/1/nivel/1?recorte=null
