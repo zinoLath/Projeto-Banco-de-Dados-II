@@ -16,13 +16,13 @@ CREATE TABLE municipio ( --OK
 );
 
 -- Tabelas de Relacionamento Bioma-Estado
-CREATE TABLE bioma_estado (
+CREATE TABLE bioma_estado ( --OK
     bioma_id SMALLINT NOT NULL REFERENCES bioma(id) ON DELETE CASCADE,
     estado_id SMALLINT NOT NULL REFERENCES estado(id) ON DELETE CASCADE,
     PRIMARY KEY (bioma_id, estado_id)
 );
 -- Tabela de Relacionamento Bioma-Município
-CREATE TABLE bioma_municipio (
+CREATE TABLE bioma_municipio ( --OK
     municipio_id INTEGER NOT NULL REFERENCES municipio(id) ON DELETE CASCADE,
     bioma_id SMALLINT NOT NULL REFERENCES bioma(id) ON DELETE CASCADE,
     PRIMARY KEY (municipio_id, bioma_id)
@@ -64,7 +64,7 @@ CREATE TABLE desmatamento_estado ( --OK
 );
 
 -- Tabela de Desmatamento por Bioma
-CREATE TABLE desmatamento_bioma (
+CREATE TABLE desmatamento_bioma ( --OK
     id SERIAL PRIMARY KEY,
     area_desmatada NUMERIC(20,2) NOT NULL CHECK (area_desmatada >= 0),
     ano SMALLINT NOT NULL CHECK (ano BETWEEN 1900 AND 2100),
