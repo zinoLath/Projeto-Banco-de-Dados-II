@@ -52,6 +52,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="23df2cd9-6adc-4849-819c-1ec92e2bbc06"/>
+        <entry key="file_store_id" type="xstring" value="94b0dc8c-4cad-41a6-b99c-ce7e8b967f12"/>
     </config>
 </config>

@@ -1,0 +1,3 @@
+https://terrabrasilis.dpi.inpe.br/file-delivery/download/dashboard-fires/fof_prodes
+https://terrabrasilis.dpi.inpe.br/app/prodes/dashboard/deforestation/files/data/prodes_legal_amazon.json
+https://terrabrasilis.dpi.inpe.br/app/prodes/dashboard/deforestation/files/config/loinames/prodes_legal_amazon.json
