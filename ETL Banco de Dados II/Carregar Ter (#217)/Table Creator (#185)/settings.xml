@@ -69,12 +69,12 @@
         <entry key="highlightOutputTable" type="xboolean" value="false"/>
         <config key="columnProperties">
             <config key="0">
-                <entry key="UserSetValues" type="xboolean" value="false"/>
+                <entry key="UserSetValues" type="xboolean" value="true"/>
                 <entry key="MissValuePattern" type="xstring" value=""/>
                 <entry key="FormatParameter" type="xstring" isnull="true" value=""/>
                 <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
                 <entry key="SkipThisColumn" type="xboolean" value="false"/>
-                <entry key="ColumnName" type="xstring" value="column1"/>
+                <entry key="ColumnName" type="xstring" value="identificador-bioma"/>
                 <config key="ColumnClass">
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
@@ -121,6 +121,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c0f9044a-4397-4a26-a1b8-25ef2c62c2fe"/>
+        <entry key="file_store_id" type="xstring" value="ecbc166f-c260-410a-b604-46c3e5a44998"/>
     </config>
 </config>

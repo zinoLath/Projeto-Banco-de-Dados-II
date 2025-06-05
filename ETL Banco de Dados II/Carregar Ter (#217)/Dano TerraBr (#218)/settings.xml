@@ -5,7 +5,25 @@
     <config key="internal_node_subsettings">
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
-    <config key="model"/>
+    <config key="model">
+        <config key="bioma-identificador-221">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="amazon"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="bioma-identificador-221">
+                <config key="variable_value">
+                    <entry key="used_variable" type="xstring" value="identificador-bioma"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
+    </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value=""/>
         <entry key="contentType" type="xstring" value="text/plain"/>

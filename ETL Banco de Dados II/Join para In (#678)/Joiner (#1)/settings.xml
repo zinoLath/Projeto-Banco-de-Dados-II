@@ -12,6 +12,10 @@
                 <entry key="leftTableColumn" type="xstring" value="Nome"/>
                 <entry key="rightTableColumn" type="xstring" value="Nome"/>
             </config>
+            <config key="1">
+                <entry key="leftTableColumn" type="xstring" value="Tipo"/>
+                <entry key="rightTableColumn" type="xstring" value="Tipo"/>
+            </config>
         </config>
         <entry key="dataCellComparisonMode" type="xstring" value="STRICT"/>
         <entry key="includeMatchesInOutput" type="xboolean" value="true"/>
@@ -93,7 +97,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 224, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 143, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -117,6 +121,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1de1d2f6-1554-4709-8c28-f0cd03201f1b"/>
+        <entry key="file_store_id" type="xstring" value="f4c56ff4-45d5-473a-8df4-19d5ddb04e92"/>
     </config>
 </config>

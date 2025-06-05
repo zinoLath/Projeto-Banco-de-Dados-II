@@ -11,16 +11,18 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="RankingColumns">
-            <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="Nome"/>
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Tipo"/>
+            <entry key="1" type="xstring" value="Nome"/>
         </config>
         <config key="RankOrder_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <config key="RankOrder">
-            <entry key="array-size" type="xint" value="1"/>
+            <entry key="array-size" type="xint" value="2"/>
             <entry key="0" type="xstring" value="Ascending"/>
+            <entry key="1" type="xstring" value="Ascending"/>
         </config>
         <config key="GroupColumns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
@@ -71,12 +73,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 50, Cols: 2"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 50, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3964601f-69ac-416f-b55b-53d98ba502a5"/>
+        <entry key="file_store_id" type="xstring" value="ba8867f5-0c7f-4465-9b3a-9ca994c891c4"/>
     </config>
 </config>

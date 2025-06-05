@@ -1,19 +1,18 @@
 CREATE TABLE bioma (
-    id SMALLSERIAL PRIMARY KEY,
-    nome_bioma TEXT NOT NULL UNIQUE
+    id SMALLINT PRIMARY KEY,
+    nome_bioma TEXT NOT NULL UNIQUE,
 );
 -- Tabela de Estados
 CREATE TABLE estado (
-    id SMALLSERIAL PRIMARY KEY, --codigo ibge
+    id SMALLINT PRIMARY KEY, --codigo ibge
     uf CHAR(2) NOT NULL UNIQUE,
     nome_estado TEXT NOT NULL UNIQUE
 );
 -- Tabela de Municípios
 CREATE TABLE municipio (
-    id SERIAL PRIMARY KEY,
+    id INT PRIMARY KEY,
     nome_municipio TEXT NOT NULL,
-    estado_id SMALLINT NOT NULL REFERENCES estado(id) ON DELETE CASCADE,
-    UNIQUE (estado_id)
+    estado_id SMALLINT NOT NULL REFERENCES estado(id) ON DELETE CASCADE
 );
 
 -- Tabelas de Relacionamento Bioma-Estado
@@ -32,7 +31,7 @@ CREATE TABLE bioma_municipio (
 -- Tabela de Vegetação
 CREATE TABLE caracteristica (
     id SMALLINT PRIMARY KEY,
-    nome_caracteristica VARCHAR(100) NOT NULL UNIQUE,
+    nome_caracteristica VARCHAR(100) NOT NULL,
     categoria VARCHAR(13) NOT NULL
 );
 

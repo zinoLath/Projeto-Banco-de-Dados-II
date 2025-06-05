@@ -6,25 +6,25 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="bioma-identificador (index)"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="0"/>
+            <entry key="value" type="xint" value="6"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="bioma-identificador"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="amazon"/>
+            <entry key="value" type="xstring" value="amazon_nf"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="bioma-identificador (index)"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="0"/>
+            <entry key="value" type="xint" value="6"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="bioma-identificador"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="amazon"/>
+            <entry key="value" type="xstring" value="amazon_nf"/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -87,6 +87,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="02bf1a86-731b-47a3-95b9-927a283b1db5"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

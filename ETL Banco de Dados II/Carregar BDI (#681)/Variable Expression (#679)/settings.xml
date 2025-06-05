@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="url-pedologia"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="https://bdiaweb.ibge.gov.br/proxy/api/graficos/pedologia/tipo_recorte/3/nivel/1?recorte=5300108"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="url-geomorfologia"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="https://bdiaweb.ibge.gov.br/proxy/api/graficos/geomorfologia/tipo_recorte/3/nivel/1?recorte=5300108"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="url-geologia"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="https://bdiaweb.ibge.gov.br/proxy/api/graficos/geologia/tipo_recorte/3/nivel/1?recorte=5300108"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="url-vegetacao"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="https://bdiaweb.ibge.gov.br/proxy/api/graficos/vegetacao/tipo_recorte/3/nivel/1?recorte=5300108"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="languageVersion" type="xint" value="1"/>
+        <entry key="builtinFunctionsVersion" type="xint" value="1"/>
+        <entry key="builtinAggregationsVersion" type="xint" value="1"/>
+        <config key="additionalExpressions">
+            <config key="0">
+                <entry key="script" type="xstring" value="join(&quot;&quot;,$$[&quot;endpoint-parte-1&quot;],%%00010        &quot;vegetacao&quot;,%%00010        $$[&quot;endpoint-parte-2&quot;],%%00010        string($$[&quot;tipo-recorte (index)&quot;]+2),%%00010        $$[&quot;endpoint-parte-3&quot;],%%00010        string($$[&quot;terreno-id&quot;])%%00010    )"/>
+                <entry key="outputMode" type="xstring" value="APPEND"/>
+                <entry key="createdFlowVariable" type="xstring" value="url-vegetacao"/>
+                <entry key="replacedFlowVariable" type="xstring" value=""/>
+                <entry key="flowVariableReturnType" type="xstring" value="String"/>
+            </config>
+            <config key="1">
+                <entry key="script" type="xstring" value="join(&quot;&quot;,$$[&quot;endpoint-parte-1&quot;],%%00010        &quot;geologia&quot;,%%00010        $$[&quot;endpoint-parte-2&quot;],%%00010        string($$[&quot;tipo-recorte (index)&quot;]+2),%%00010        $$[&quot;endpoint-parte-3&quot;],%%00010        string($$[&quot;terreno-id&quot;])%%00010    )"/>
+                <entry key="outputMode" type="xstring" value="APPEND"/>
+                <entry key="createdFlowVariable" type="xstring" value="url-geologia"/>
+                <entry key="replacedFlowVariable" type="xstring" value=""/>
+                <entry key="flowVariableReturnType" type="xstring" value="String"/>
+            </config>
+            <config key="2">
+                <entry key="script" type="xstring" value="join(&quot;&quot;,$$[&quot;endpoint-parte-1&quot;],%%00010        &quot;geomorfologia&quot;,%%00010        $$[&quot;endpoint-parte-2&quot;],%%00010        string($$[&quot;tipo-recorte (index)&quot;]+2),%%00010        $$[&quot;endpoint-parte-3&quot;],%%00010        string($$[&quot;terreno-id&quot;])%%00010    )"/>
+                <entry key="outputMode" type="xstring" value="APPEND"/>
+                <entry key="createdFlowVariable" type="xstring" value="url-geomorfologia"/>
+                <entry key="replacedFlowVariable" type="xstring" value=""/>
+                <entry key="flowVariableReturnType" type="xstring" value="String"/>
+            </config>
+            <config key="3">
+                <entry key="script" type="xstring" value="join(&quot;&quot;,$$[&quot;endpoint-parte-1&quot;],%%00010        &quot;pedologia&quot;,%%00010        $$[&quot;endpoint-parte-2&quot;],%%00010        string($$[&quot;tipo-recorte (index)&quot;]+2),%%00010        $$[&quot;endpoint-parte-3&quot;],%%00010        string($$[&quot;terreno-id&quot;])%%00010    )"/>
+                <entry key="outputMode" type="xstring" value="APPEND"/>
+                <entry key="createdFlowVariable" type="xstring" value="url-pedologia"/>
+                <entry key="replacedFlowVariable" type="xstring" value=""/>
+                <entry key="flowVariableReturnType" type="xstring" value="String"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.expressions.node.variable.ExpressionFlowVariableNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Variable Expression"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Expressions"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.expressions"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202501291459"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Expressions"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.expressions.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202501291459"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Variable Expression"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Variables connection"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

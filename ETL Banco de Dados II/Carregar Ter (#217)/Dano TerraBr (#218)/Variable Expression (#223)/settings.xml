@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="url-dicionario"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="https://terrabrasilis.dpi.inpe.br/app/prodes/dashboard/deforestation/files/config/loinames/prodes_amazon.json"/>
+            <entry key="value" type="xstring" value="https://terrabrasilis.dpi.inpe.br/app/prodes/dashboard/deforestation/files/config/loinames/prodes_amazon_nf.json"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="url-dado"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="https://terrabrasilis.dpi.inpe.br/app/prodes/dashboard/deforestation/files/data/prodes_amazon.json"/>
+            <entry key="value" type="xstring" value="https://terrabrasilis.dpi.inpe.br/app/prodes/dashboard/deforestation/files/data/prodes_amazon_nf.json"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
@@ -82,6 +82,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="baf79701-e436-43b2-bbbd-cb19d9e95623"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
