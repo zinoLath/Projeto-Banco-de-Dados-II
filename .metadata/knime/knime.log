@@ -4467,3 +4467,55 @@ Caused by: org.knime.core.node.InvalidSettingsException: Unknown variable "url-v
 2025-06-05 10:38:14,876 : WARN  : comm-pool-thread-25 :  : Node : GET Request : 3:676:684:0:675 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url"
 2025-06-05 10:38:19,621 : WARN  : main :  : Node : GET Request : 3:676:684:0:675 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url"
 2025-06-05 10:39:02,175 : WARN  : comm-pool-thread-25 :  : Node : Rank : 3:676:686 : No ranking column is selected.
+2025-06-05 10:44:00,581 : WARN  : comm-pool-thread-25 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:44:00,581 : WARN  : comm-pool-thread-25 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:44:42,976 : WARN  : KNIME-Worker-230-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:44:42,976 : WARN  : KNIME-Worker-230-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:44:59,791 : WARN  : main :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:44:59,791 : WARN  : main :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:22,461 : WARN  : KNIME-Worker-237-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:22,853 : WARN  : KNIME-Worker-262-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:22,853 : WARN  : KNIME-Worker-262-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:24,647 : WARN  : KNIME-Worker-232-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:25,287 : WARN  : KNIME-Worker-229-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:25,287 : WARN  : KNIME-Worker-229-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:26,596 : WARN  : KNIME-Worker-252-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:27,118 : WARN  : KNIME-Worker-261-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:27,119 : WARN  : KNIME-Worker-261-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:30,278 : WARN  : KNIME-Worker-252-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:31,479 : WARN  : KNIME-Worker-247-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:31,480 : WARN  : KNIME-Worker-247-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:31,801 : WARN  : KNIME-Worker-234-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:31,885 : WARN  : KNIME-Worker-248-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:31,886 : WARN  : KNIME-Worker-248-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:32,024 : WARN  : KNIME-Worker-245-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:32,053 : WARN  : KNIME-Worker-248-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:32,054 : WARN  : KNIME-Worker-248-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:33,160 : WARN  : KNIME-Worker-248-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 10:45:33,633 : WARN  : KNIME-Worker-233-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:3 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dado"
+2025-06-05 10:45:33,633 : WARN  : KNIME-Worker-233-Table Row to Variable Loop Start 3:217:221 :  : Node : GET Request : 3:217:218:0:9 : Errors loading flow variables into node : Errors overwriting node settings with flow variables: Unknown variable "url-dicionario"
+2025-06-05 10:45:34,079 : WARN  : KNIME-Worker-256-String Manipulation 3:217:218:0:39 :  : ColumnCalculator : String Manipulation : 3:217:218:0:39 : Row "Row0_1_1" contains missing value in column "area_value" - returning missing (omitting further warnings)
+2025-06-05 11:29:05,757 : WARN  : comm-pool-thread-27 :  : Node : Constant Value Column : 3:676:687 : Configuration missing.
+2025-06-05 11:29:27,223 : WARN  : main :  : WrappedNodeDialog : Constant Value Column : 3:676:687 : failed to apply settings: New column name must not be empty.
+org.knime.core.node.InvalidSettingsException: New column name must not be empty.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:273)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:223)
+	at org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeDialogPane.getText(ConstantValueColumnNodeDialogPane.java:356)
+	at org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeDialogPane.saveSettingsTo(ConstantValueColumnNodeDialogPane.java:331)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
