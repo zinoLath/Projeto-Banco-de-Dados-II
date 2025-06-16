@@ -75,10 +75,10 @@
         <entry key="disableDbDataPort" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="ERROR"/>
-        <entry key="message" type="xstring" value="Execute failed: Error while adding rows #-1000 - #0, reason: Batch entry 0 INSERT INTO &quot;public&quot;.&quot;desmatamento_municipio&quot; (&quot;area_desmatada&quot;, &quot;municipio_id&quot;, &quot;ano&quot;, &quot;bioma_id&quot;) VALUES (('124.35295597353165'::double precision),('1720101'::int4),('2007'::int4),('1'::int4)) was aborted: ERROR: column &quot;bioma_id&quot; of relation &quot;desmatamento_municipio&quot; does not exist%%00010  Position: 89  Call getNextException to see other errors in the batch."/>
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Database connection does not exist. Please reset the corresponding connector node."/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.database.node.io.insert.DBInsertNodeFactory"/>
     <entry key="node-name" type="xstring" value="DB Insert"/>

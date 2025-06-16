@@ -1,0 +1,22 @@
+{
+  "version" : "5.4.4.v202504301443",
+  "projects" : [ {
+    "name" : "ETL Banco de Dados II",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "ETL Banco de Dados II"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "ETL Banco de Dados II",
+    "timeUsed" : "2025-06-05T09:11:17.120305591-03:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "ETL Banco de Dados II"
+    }
+  } ]
+}

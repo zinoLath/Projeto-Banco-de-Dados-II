@@ -71,10 +71,10 @@
         <entry key="disableDbDataPort" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="ERROR"/>
-        <entry key="message" type="xstring" value="Execute failed: Batch entry 0 INSERT INTO &quot;public&quot;.&quot;bioma&quot; (&quot;id&quot;, &quot;nome_bioma&quot;) VALUES (('1'::int4),('Amazônia')) was aborted: ERROR: duplicate key value violates unique constraint &quot;bioma_pkey&quot;%%00010  Detail: Key (id)=(1) already exists.  Call getNextException to see other errors in the batch."/>
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Database connection does not exist. Please reset the corresponding connector node."/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.database.node.io.insert.DBInsertNodeFactory"/>
     <entry key="node-name" type="xstring" value="DB Insert"/>
